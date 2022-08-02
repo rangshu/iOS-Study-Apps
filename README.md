@@ -1,7 +1,6 @@
-# iOS-Study-Apps
-패스트캠퍼스 iOS 강의들으면서 만들었던 앱들
+# 패스트캠퍼스 iOS 강의들으면서 만들었던 앱들
 
-1. Basic 단계: UIKit, StoryBoard를 이용하여 만든 앱들
+## Basic 단계: UIKit, StoryBoard를 이용하여 만든 앱들
 
 - 명언생성기, LED 전광판
 
@@ -21,11 +20,12 @@
 
 
 
-2. Intermediate 단계: Firebase, Notification, StoryBoard 없이 만든 앱들
+## Intermediate 단계: Firebase, Notification, StoryBoard 없이 만든 앱들
 
 - 실시간 공지사항, 물 마시기 
 
 ![Inter1](https://user-images.githubusercontent.com/1930670/182373899-36076add-6e78-4e1c-9c8d-d3c87d5d1856.gif)![Inter2](https://user-images.githubusercontent.com/1930670/182373910-3f39b17c-6fa3-4012-99f0-123e50e4989a.gif)
 
-- 넷플릭스 스타일 샘플, 브루어리 
+- 넷플릭스 스타일 샘플, 브루어리
+
 ![Inter3](https://user-images.githubusercontent.com/1930670/182373926-2d792ead-23b9-46d2-97a0-7f18fa3304ae.gif)![inter4](https://user-images.githubusercontent.com/1930670/182373973-84e85ce5-2705-4ef0-aadc-158879a7e988.gif)
