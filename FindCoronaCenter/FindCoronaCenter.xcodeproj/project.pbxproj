@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		372FC9C228032C94004947D5 /* FindCoronaCenterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372FC9C128032C94004947D5 /* FindCoronaCenterApp.swift */; };
+		372FC9C628032C95004947D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372FC9C528032C95004947D5 /* Assets.xcassets */; };
+		372FC9C928032C95004947D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372FC9C828032C95004947D5 /* Preview Assets.xcassets */; };
+		372FC9D328032C96004947D5 /* FindCoronaCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372FC9D228032C96004947D5 /* FindCoronaCenterTests.swift */; };
+		372FC9DD28032C96004947D5 /* FindCoronaCenterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372FC9DC28032C96004947D5 /* FindCoronaCenterUITests.swift */; };
+		372FC9DF28032C96004947D5 /* FindCoronaCenterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372FC9DE28032C96004947D5 /* FindCoronaCenterUITestsLaunchTests.swift */; };
+		372FC9EC28032CBC004947D5 /* CenterAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372FC9EB28032CBC004947D5 /* CenterAPIResponse.swift */; };
+		372FC9EF28032D5D004947D5 /* Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372FC9EE28032D5D004947D5 /* Center.swift */; };
+		372FC9F2280334FF004947D5 /* CenterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372FC9F1280334FF004947D5 /* CenterAPI.swift */; };
+		372FC9F4280335FA004947D5 /* CenterNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372FC9F3280335F9004947D5 /* CenterNetwork.swift */; };
+		372FC9F72804F96C004947D5 /* SelectRegionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372FC9F62804F96C004947D5 /* SelectRegionView.swift */; };
+		372FC9F92804F97A004947D5 /* SelectRegionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372FC9F82804F97A004947D5 /* SelectRegionViewModel.swift */; };
+		37929C8D28071D35001852D9 /* SelectRegionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37929C8C28071D35001852D9 /* SelectRegionItem.swift */; };
+		37929C8F280BF7A0001852D9 /* CenterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37929C8E280BF7A0001852D9 /* CenterRow.swift */; };
+		37929C91280BF8FB001852D9 /* CenterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37929C90280BF8FB001852D9 /* CenterList.swift */; };
+		37929C97280BFAD7001852D9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37929C96280BFAD7001852D9 /* MapView.swift */; };
+		37929C99280BFE18001852D9 /* CenterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37929C98280BFE18001852D9 /* CenterDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		372FC9CF28032C96004947D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 372FC9B628032C94004947D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 372FC9BD28032C94004947D5;
+			remoteInfo = FindCoronaCenter;
+		};
+		372FC9D928032C96004947D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 372FC9B628032C94004947D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 372FC9BD28032C94004947D5;
+			remoteInfo = FindCoronaCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		372FC9BE28032C94004947D5 /* FindCoronaCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindCoronaCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		372FC9C128032C94004947D5 /* FindCoronaCenterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCoronaCenterApp.swift; sourceTree = "<group>"; };
+		372FC9C528032C95004947D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		372FC9C828032C95004947D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		372FC9CE28032C96004947D5 /* FindCoronaCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindCoronaCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		372FC9D228032C96004947D5 /* FindCoronaCenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCoronaCenterTests.swift; sourceTree = "<group>"; };
+		372FC9D828032C96004947D5 /* FindCoronaCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindCoronaCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		372FC9DC28032C96004947D5 /* FindCoronaCenterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCoronaCenterUITests.swift; sourceTree = "<group>"; };
+		372FC9DE28032C96004947D5 /* FindCoronaCenterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCoronaCenterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		372FC9EB28032CBC004947D5 /* CenterAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterAPIResponse.swift; sourceTree = "<group>"; };
+		372FC9EE28032D5D004947D5 /* Center.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Center.swift; sourceTree = "<group>"; };
+		372FC9F1280334FF004947D5 /* CenterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterAPI.swift; sourceTree = "<group>"; };
+		372FC9F3280335F9004947D5 /* CenterNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterNetwork.swift; sourceTree = "<group>"; };
+		372FC9F62804F96C004947D5 /* SelectRegionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRegionView.swift; sourceTree = "<group>"; };
+		372FC9F82804F97A004947D5 /* SelectRegionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRegionViewModel.swift; sourceTree = "<group>"; };
+		37929C8C28071D35001852D9 /* SelectRegionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRegionItem.swift; sourceTree = "<group>"; };
+		37929C8E280BF7A0001852D9 /* CenterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterRow.swift; sourceTree = "<group>"; };
+		37929C90280BF8FB001852D9 /* CenterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterList.swift; sourceTree = "<group>"; };
+		37929C96280BFAD7001852D9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		37929C98280BFE18001852D9 /* CenterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		372FC9BB28032C94004947D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372FC9CB28032C96004947D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372FC9D528032C96004947D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		372FC9B528032C94004947D5 = {
+			isa = PBXGroup;
+			children = (
+				372FC9C028032C94004947D5 /* FindCoronaCenter */,
+				372FC9D128032C96004947D5 /* FindCoronaCenterTests */,
+				372FC9DB28032C96004947D5 /* FindCoronaCenterUITests */,
+				372FC9BF28032C94004947D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		372FC9BF28032C94004947D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				372FC9BE28032C94004947D5 /* FindCoronaCenter.app */,
+				372FC9CE28032C96004947D5 /* FindCoronaCenterTests.xctest */,
+				372FC9D828032C96004947D5 /* FindCoronaCenterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		372FC9C028032C94004947D5 /* FindCoronaCenter */ = {
+			isa = PBXGroup;
+			children = (
+				372FC9F52804F94D004947D5 /* Presentation */,
+				372FC9C128032C94004947D5 /* FindCoronaCenterApp.swift */,
+				372FC9C528032C95004947D5 /* Assets.xcassets */,
+				372FC9C728032C95004947D5 /* Preview Content */,
+				372FC9ED28032CC2004947D5 /* Entities */,
+				372FC9F0280334E9004947D5 /* Network */,
+			);
+			path = FindCoronaCenter;
+			sourceTree = "<group>";
+		};
+		372FC9C728032C95004947D5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				372FC9C828032C95004947D5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		372FC9D128032C96004947D5 /* FindCoronaCenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				372FC9D228032C96004947D5 /* FindCoronaCenterTests.swift */,
+			);
+			path = FindCoronaCenterTests;
+			sourceTree = "<group>";
+		};
+		372FC9DB28032C96004947D5 /* FindCoronaCenterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				372FC9DC28032C96004947D5 /* FindCoronaCenterUITests.swift */,
+				372FC9DE28032C96004947D5 /* FindCoronaCenterUITestsLaunchTests.swift */,
+			);
+			path = FindCoronaCenterUITests;
+			sourceTree = "<group>";
+		};
+		372FC9ED28032CC2004947D5 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				372FC9EB28032CBC004947D5 /* CenterAPIResponse.swift */,
+				372FC9EE28032D5D004947D5 /* Center.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		372FC9F0280334E9004947D5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				372FC9F1280334FF004947D5 /* CenterAPI.swift */,
+				372FC9F3280335F9004947D5 /* CenterNetwork.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		372FC9F52804F94D004947D5 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				37929C8B2805CE00001852D9 /* SelectRegionView */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		37929C8B2805CE00001852D9 /* SelectRegionView */ = {
+			isa = PBXGroup;
+			children = (
+				37929C92280BFAB1001852D9 /* SelectRegionView */,
+				37929C93280BFABB001852D9 /* CenterList */,
+				37929C9A280BFE20001852D9 /* DetailView */,
+			);
+			path = SelectRegionView;
+			sourceTree = "<group>";
+		};
+		37929C92280BFAB1001852D9 /* SelectRegionView */ = {
+			isa = PBXGroup;
+			children = (
+				372FC9F62804F96C004947D5 /* SelectRegionView.swift */,
+				372FC9F82804F97A004947D5 /* SelectRegionViewModel.swift */,
+				37929C8C28071D35001852D9 /* SelectRegionItem.swift */,
+			);
+			path = SelectRegionView;
+			sourceTree = "<group>";
+		};
+		37929C93280BFABB001852D9 /* CenterList */ = {
+			isa = PBXGroup;
+			children = (
+				37929C8E280BF7A0001852D9 /* CenterRow.swift */,
+				37929C90280BF8FB001852D9 /* CenterList.swift */,
+			);
+			path = CenterList;
+			sourceTree = "<group>";
+		};
+		37929C9A280BFE20001852D9 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				37929C96280BFAD7001852D9 /* MapView.swift */,
+				37929C98280BFE18001852D9 /* CenterDetailView.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		372FC9BD28032C94004947D5 /* FindCoronaCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372FC9E228032C96004947D5 /* Build configuration list for PBXNativeTarget "FindCoronaCenter" */;
+			buildPhases = (
+				372FC9BA28032C94004947D5 /* Sources */,
+				372FC9BB28032C94004947D5 /* Frameworks */,
+				372FC9BC28032C94004947D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindCoronaCenter;
+			productName = FindCoronaCenter;
+			productReference = 372FC9BE28032C94004947D5 /* FindCoronaCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		372FC9CD28032C96004947D5 /* FindCoronaCenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372FC9E528032C96004947D5 /* Build configuration list for PBXNativeTarget "FindCoronaCenterTests" */;
+			buildPhases = (
+				372FC9CA28032C96004947D5 /* Sources */,
+				372FC9CB28032C96004947D5 /* Frameworks */,
+				372FC9CC28032C96004947D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				372FC9D028032C96004947D5 /* PBXTargetDependency */,
+			);
+			name = FindCoronaCenterTests;
+			productName = FindCoronaCenterTests;
+			productReference = 372FC9CE28032C96004947D5 /* FindCoronaCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		372FC9D728032C96004947D5 /* FindCoronaCenterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372FC9E828032C96004947D5 /* Build configuration list for PBXNativeTarget "FindCoronaCenterUITests" */;
+			buildPhases = (
+				372FC9D428032C96004947D5 /* Sources */,
+				372FC9D528032C96004947D5 /* Frameworks */,
+				372FC9D628032C96004947D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				372FC9DA28032C96004947D5 /* PBXTargetDependency */,
+			);
+			name = FindCoronaCenterUITests;
+			productName = FindCoronaCenterUITests;
+			productReference = 372FC9D828032C96004947D5 /* FindCoronaCenterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		372FC9B628032C94004947D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					372FC9BD28032C94004947D5 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					372FC9CD28032C96004947D5 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 372FC9BD28032C94004947D5;
+					};
+					372FC9D728032C96004947D5 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 372FC9BD28032C94004947D5;
+					};
+				};
+			};
+			buildConfigurationList = 372FC9B928032C94004947D5 /* Build configuration list for PBXProject "FindCoronaCenter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 372FC9B528032C94004947D5;
+			productRefGroup = 372FC9BF28032C94004947D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				372FC9BD28032C94004947D5 /* FindCoronaCenter */,
+				372FC9CD28032C96004947D5 /* FindCoronaCenterTests */,
+				372FC9D728032C96004947D5 /* FindCoronaCenterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		372FC9BC28032C94004947D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372FC9C928032C95004947D5 /* Preview Assets.xcassets in Resources */,
+				372FC9C628032C95004947D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372FC9CC28032C96004947D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372FC9D628032C96004947D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		372FC9BA28032C94004947D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372FC9EF28032D5D004947D5 /* Center.swift in Sources */,
+				37929C97280BFAD7001852D9 /* MapView.swift in Sources */,
+				37929C8D28071D35001852D9 /* SelectRegionItem.swift in Sources */,
+				37929C91280BF8FB001852D9 /* CenterList.swift in Sources */,
+				372FC9F4280335FA004947D5 /* CenterNetwork.swift in Sources */,
+				37929C99280BFE18001852D9 /* CenterDetailView.swift in Sources */,
+				37929C8F280BF7A0001852D9 /* CenterRow.swift in Sources */,
+				372FC9F2280334FF004947D5 /* CenterAPI.swift in Sources */,
+				372FC9F72804F96C004947D5 /* SelectRegionView.swift in Sources */,
+				372FC9EC28032CBC004947D5 /* CenterAPIResponse.swift in Sources */,
+				372FC9F92804F97A004947D5 /* SelectRegionViewModel.swift in Sources */,
+				372FC9C228032C94004947D5 /* FindCoronaCenterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372FC9CA28032C96004947D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372FC9D328032C96004947D5 /* FindCoronaCenterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372FC9D428032C96004947D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372FC9DF28032C96004947D5 /* FindCoronaCenterUITestsLaunchTests.swift in Sources */,
+				372FC9DD28032C96004947D5 /* FindCoronaCenterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		372FC9D028032C96004947D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 372FC9BD28032C94004947D5 /* FindCoronaCenter */;
+			targetProxy = 372FC9CF28032C96004947D5 /* PBXContainerItemProxy */;
+		};
+		372FC9DA28032C96004947D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 372FC9BD28032C94004947D5 /* FindCoronaCenter */;
+			targetProxy = 372FC9D928032C96004947D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		372FC9E028032C96004947D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		372FC9E128032C96004947D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		372FC9E328032C96004947D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FindCoronaCenter/Preview Content\"";
+				DEVELOPMENT_TEAM = 2TL3P2KALW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tistory.sronsemiro.FindCoronaCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		372FC9E428032C96004947D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FindCoronaCenter/Preview Content\"";
+				DEVELOPMENT_TEAM = 2TL3P2KALW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tistory.sronsemiro.FindCoronaCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		372FC9E628032C96004947D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TL3P2KALW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tistory.sronsemiro.FindCoronaCenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindCoronaCenter.app/FindCoronaCenter";
+			};
+			name = Debug;
+		};
+		372FC9E728032C96004947D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TL3P2KALW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tistory.sronsemiro.FindCoronaCenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindCoronaCenter.app/FindCoronaCenter";
+			};
+			name = Release;
+		};
+		372FC9E928032C96004947D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TL3P2KALW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tistory.sronsemiro.FindCoronaCenterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindCoronaCenter;
+			};
+			name = Debug;
+		};
+		372FC9EA28032C96004947D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TL3P2KALW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tistory.sronsemiro.FindCoronaCenterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindCoronaCenter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		372FC9B928032C94004947D5 /* Build configuration list for PBXProject "FindCoronaCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372FC9E028032C96004947D5 /* Debug */,
+				372FC9E128032C96004947D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372FC9E228032C96004947D5 /* Build configuration list for PBXNativeTarget "FindCoronaCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372FC9E328032C96004947D5 /* Debug */,
+				372FC9E428032C96004947D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372FC9E528032C96004947D5 /* Build configuration list for PBXNativeTarget "FindCoronaCenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372FC9E628032C96004947D5 /* Debug */,
+				372FC9E728032C96004947D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372FC9E828032C96004947D5 /* Build configuration list for PBXNativeTarget "FindCoronaCenterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372FC9E928032C96004947D5 /* Debug */,
+				372FC9EA28032C96004947D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 372FC9B628032C94004947D5 /* Project object */;
+}
