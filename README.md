@@ -2,6 +2,8 @@
 패스트캠퍼스 iOS 강의들으면서 만들었던 앱들
 
 1. Basic 단계
+UIKit, StoryBoard를 이용하여 만든 앱들
+
 - 명언생성기, LED 전광판
 
 ![Basic1](https://user-images.githubusercontent.com/1930670/182369269-c8949935-94c6-41f5-94e1-bf7040e3045b.gif)![Basic2](https://user-images.githubusercontent.com/1930670/182369286-319309c0-1104-4e16-bcc2-79f252cc1c43.gif)
