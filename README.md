@@ -1,8 +1,7 @@
 # iOS-Study-Apps
 패스트캠퍼스 iOS 강의들으면서 만들었던 앱들
 
-1. Basic 단계
-UIKit, StoryBoard를 이용하여 만든 앱들
+1. Basic 단계: UIKit, StoryBoard를 이용하여 만든 앱들
 
 - 명언생성기, LED 전광판
 
@@ -20,4 +19,6 @@ UIKit, StoryBoard를 이용하여 만든 앱들
 
 ![Basic7](https://user-images.githubusercontent.com/1930670/182369356-2da4b8e5-577f-4766-9428-81d5b44b104a.gif)![Basic8](https://user-images.githubusercontent.com/1930670/182369357-08a86453-9fea-48bc-9b71-6b4bb86f4dfd.gif)
 
+
+2. Intermediate 단계: Firebase, Notification, StoryBoard 없이 만든 앱들
 
